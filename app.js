@@ -27,7 +27,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(
   cors({
-    origin: 'https://alluring-wind-cave-86820.herokuapp.com/',
+    origin: 'https://alluring-wind-cave-86820.herokuapp.com',
   })
 );
 
